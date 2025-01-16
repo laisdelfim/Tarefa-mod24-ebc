@@ -1,10 +1,10 @@
 public interface IContratoDao {
-  void salvar();
+  String salvar();
 
-  void buscar();
+  String buscar();
 
-  void excluir();
+  String excluir();
 
-  void atualizar();
+  String atualizar();
 
 }
