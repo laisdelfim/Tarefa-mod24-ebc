@@ -1,7 +1,10 @@
-public class ContratoDao implements IContratoDao {
+public interface ClienteDao {
 
-  @Override
-  public void salvar() {
-    throw new UnsupportedOperationException("Não funciona com o banco");
-  }
+    public String salvar();
+
+    String buscar();
+
+    String excluir();
+
+    String atualizar();
 }
