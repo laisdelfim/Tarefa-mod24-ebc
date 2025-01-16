@@ -1,4 +1,11 @@
 public interface IClienteDao {
 
-  public String salvar();
+    public String salvar();
+
+    String buscar();
+
+    String excluir();
+
+    String atualizar();
+}
 }
