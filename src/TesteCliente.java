@@ -1,4 +1,4 @@
-public class ContratoServiceTest {
+public class ContratoServiceTest{
 
     @Test
     public void salvarTest() {
